@@ -1,0 +1,22 @@
+{
+  "name": "migrate-users-from-pg",
+  "version": "0.0.1",
+  "description": "Migrating social users from PostGres database",
+  "main": "migrate_social_users.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikas Jayaram",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.4",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "moment": "^2.17.1",
+    "pg": "^4.3.0",
+    "randomatic": "^1.1.6",
+    "request": "^2.79.0",
+    "webtask-tools": "^3.1.1"
+  }
+}
